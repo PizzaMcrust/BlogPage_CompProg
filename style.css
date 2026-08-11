@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+body{
+    background-image: url(forest_BG_1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
