@@ -18,7 +18,6 @@ main{
 }
 
 aside{
-    align-self: start;
     position: sticky;
     top: 20px;
     padding: 20px;
@@ -90,14 +89,21 @@ nav ul{
 }
 
 .nav-buttons{
+    display: block;
     background-color: rgb(184, 154, 115);
     margin-left:5px ;
     padding: 20px;
     font-size: large;
 }
 
+.profile-icon{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 /*Main Blog/Article Content*/
 .post-card{
+    display: block;
     border: 1px;
     border-radius: 10px;
     background-color: wheat;
@@ -142,4 +148,21 @@ nav ul{
 
 .article-title{
     border-bottom: 1px solid rgb(194, 175, 141);
+}
+
+.post-link{
+    text-decoration: none;
+    color: black;
+}
+
+.author{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-self: start;
 }
